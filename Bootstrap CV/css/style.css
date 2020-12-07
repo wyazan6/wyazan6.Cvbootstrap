@@ -1,0 +1,120 @@
+body
+{
+ overflow: hidden; 
+ font-family: 'Raleway', sans-serif;
+}
+
+#PageContainer
+{
+    height: 100vh;
+}
+.bd-highlight {
+    background-color: rgba(222,222,222,.15);
+    border: 1px solid rgba(222,222,222,.15);
+}
+
+#MenuContainer
+{
+    min-width:300px;
+    max-width:300px;
+    background-color: #121212;
+}
+
+#ContentContainer
+{
+    max-height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+#ContentContainer section
+{
+    height: 100vh;
+}
+.MobileMenu{
+background-color: transparent!important;
+}
+#SectionHome{
+    background-image: url("../images/90374650_2304764093162506_5285394317895008256_o.jpg") ;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+#SectionHome > div{
+    height: 100vh;
+    background-color: rgba(22,22,22,.6);
+}
+.sectionTitle {
+padding-top :20px;
+font-style: 150%;
+font-weight: 700;
+}
+
+.sectionTitle::after{
+content:"";
+display: block;
+width: 100px;
+height: 3px;
+margin-top: 10px;
+background-color: maroon;
+margin-bottom: 10px;
+
+}
+.AboutTitle{
+   
+    margin-bottom: 20px;
+    display: block;
+}
+
+.border-5
+{
+    border-width: 10px;
+    border-style: solid;
+}
+#SectionHome .typehome{
+border-bottom: 2px solid maroon;
+font-style: 130%;
+padding-bottom: 4px;
+}
+
+.collapsing{
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    transition: none;
+}
+.Skillitem  div span{
+font-weight: 700;
+}
+.Skillitem div div{
+    font-weight: 700;
+    background-color: red;
+    height: 10px;
+}
+.Skillitem div div div{
+    font-weight: 700;
+    background-color: black;
+   
+}
+.ResumeItem {
+border-left: 5px solid black;
+padding-left: 20px;
+margin-top: 20px;
+}
+.ResumeItem *{
+    position: relative;
+    top: -18px;
+}
+.ResumeItem::before{
+content:"";
+width: 17px;
+height: 17px;
+background-color: white;
+border:1px solid black;
+display: block;
+border-radius: 60px;
+position: relative;
+left: -30px;
+}
